@@ -1,6 +1,7 @@
 #pragma once
 
 #include "types.h"
+#include <stdio.h>
 
 class Memory
 {
@@ -8,6 +9,7 @@ class Memory
   static cell Cdr[NNODES];
   static byte Tag[NNODES];
   static cell Vectors[NVCELLS];
+  FILE	*Ports[NPORTS];
   
  public:
 
