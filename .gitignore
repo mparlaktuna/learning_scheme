@@ -5,3 +5,4 @@
 *.scm~
 *.scm#*
 .#*.scm
+scheme_implementation/build/*
